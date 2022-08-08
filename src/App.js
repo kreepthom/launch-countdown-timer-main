@@ -8,7 +8,6 @@ function App() {
       <div className="imageBg"></div>
       <FlipClock />
       <SocialMedia/>
-       {/* <img src='assets/pattern-hills.svg' alt="starts" className="imageBg" /> */}
     </div>
 
   );

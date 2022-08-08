@@ -9,6 +9,7 @@ export const runClock = (setDate) => {
     }
 
     now.h = now.h <= 12 ? now.h : now.h - 12
+    now.d = now.d < 10 ? '0' + now.d : now.d
     now.h = now.h < 10 ? '0' + now.h : now.h
     now.m = now.m < 10 ? '0' + now.m : now.m
     now.s = now.s < 10 ? '0' + now.s : now.s

@@ -7,7 +7,7 @@ export const SocialMedia = () => {
             {
                 socialMedia.map((Media, i) => (
                     <a key={i} href={`https://www.${Media}.com`} target='_blank'>
-                        <img src={`/assets/icon-${Media}.svg`} alt="SocialMedia" />
+                        <img src={`/icon/icon-${Media}.svg`} alt={`link-${Media}`} />
                     </a>
                 ))
             }
